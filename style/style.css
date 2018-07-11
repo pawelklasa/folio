@@ -1,0 +1,28 @@
+body {
+  
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #484e50;
+  font-size: 34px;
+  letter-spacing: 1px;
+}
+
+.dot {
+  font-family: 'Quicksand', sans-serif;
+  color: #CD0000;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-family: 'Magra', sans-serif;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
