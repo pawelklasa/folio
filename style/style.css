@@ -48,3 +48,9 @@ h1 {
   background: #ffb7b7; /* Gecko Browsers */
 }
 
+.arrow {
+  margin-left: -10px;
+  margin-top: 10px;
+  animation-delay: 1s;
+  animation-duration: 3s;
+}
