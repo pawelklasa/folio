@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo moto';
+  grid-gap: 10px;
+  background-color: #fafafa;
+  padding: 10px;
+  grid-auto-columns: 1fr;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.moto {
+  grid-area: moto;
+}
