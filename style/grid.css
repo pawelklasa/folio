@@ -3,15 +3,18 @@
   grid-template-areas:
     'logo moto';
   grid-gap: 10px;
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 10px;
   grid-auto-columns: 1fr;
+  margin-top: 60px;
 }
 
 .logo {
   grid-area: logo;
+  margin-left: 160px;
 }
 
 .moto {
   grid-area: moto;
+  margin-right: 160px;
 }

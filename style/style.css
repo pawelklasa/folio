@@ -27,12 +27,13 @@ p {
   color: #484e50;
   font-size: 34px;
   letter-spacing: 1px;
+  margin: 0px;
 }
 
 .dot {
   font-family: 'Quicksand', sans-serif;
   color: #CD0000;
-  font-size: 60px;
+  font-size: 30px;
   letter-spacing: 1px;
 }
 
