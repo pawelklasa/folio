@@ -44,6 +44,7 @@ h1 {
 ::selection {
   background: #ffb7b7; /* WebKit/Blink Browsers */
 }
+
 ::-moz-selection {
   background: #ffb7b7; /* Gecko Browsers */
 }
@@ -54,3 +55,4 @@ h1 {
   animation-delay: 1s;
   animation-duration: 3s;
 }
+
