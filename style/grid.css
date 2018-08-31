@@ -1,7 +1,20 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'logo moto';
+    'logo moto'
+    'work work';
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+  grid-auto-columns: 1fr;
+  margin-top: 60px;
+}
+
+.grid-container-work {
+  grid-area: work;
+  display: grid;
+  grid-template-areas:
+    'one two three';
   grid-gap: 10px;
   background-color: #fff;
   padding: 10px;

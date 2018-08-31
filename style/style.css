@@ -78,3 +78,15 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   color: grey;
 }
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
