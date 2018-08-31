@@ -16,7 +16,8 @@
   grid-area: work;
   display: grid;
   grid-template-areas:
-    'one two three';
+    'one two three'
+    'four five six';
   grid-gap: 50px;
   background-color: #fff;
   grid-auto-columns: 1fr;

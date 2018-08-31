@@ -57,7 +57,7 @@ h1 {
 }
 
 .moto {
-  margin-top: 2px;
+  margin-top: 4px;
   text-align: right;
   grid-area: moto;
 }
@@ -87,6 +87,18 @@ h1 {
 
 .three {
   grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
 }
 
 .responsive {
