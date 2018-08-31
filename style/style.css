@@ -60,12 +60,10 @@ h1 {
   margin-top: 2px;
   text-align: right;
   grid-area: moto;
-  margin-right: 160px;
 }
 
 .logo {
   grid-area: logo;
-  margin-left: 160px;
 }
 
 .logo-text {
@@ -89,4 +87,9 @@ h1 {
 
 .three {
   grid-area: three;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
