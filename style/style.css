@@ -25,7 +25,7 @@ a:active {
 p {
   font-family: 'Quicksand', sans-serif;
   color: #484e50;
-  font-size: 34px;
+  font-size: 12px;
   letter-spacing: 1px;
   margin: 0px;
 }
@@ -56,3 +56,25 @@ h1 {
   animation-duration: 3s;
 }
 
+.moto {
+  margin-top: 2px;
+  text-align: right;
+  grid-area: moto;
+  margin-right: 160px;
+}
+
+.logo {
+  grid-area: logo;
+  margin-left: 160px;
+}
+
+.logo-text {
+  font-size: 34px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.senior {
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  color: grey;
+}

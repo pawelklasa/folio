@@ -9,12 +9,5 @@
   margin-top: 60px;
 }
 
-.logo {
-  grid-area: logo;
-  margin-left: 160px;
-}
 
-.moto {
-  grid-area: moto;
-  margin-right: 160px;
-}
+
