@@ -42,8 +42,7 @@
   .grid-container {
     display: grid;
     grid-template-areas:
-      'moto moto'
-      'logo logo'
+      'logo moto'
       'work work'
       'footer footer';
     padding: 0px;
@@ -62,7 +61,7 @@
       'three four'
       'five six';
     background-color: #fff;
-    grid-gap: 10px;
+    grid-gap: 0px;
     grid-auto-columns: 1fr;
     margin-top: 60px;
   }
@@ -96,4 +95,4 @@
     grid-auto-columns: 1fr;
     margin-top: 60px;
   }
-} */
+} 
