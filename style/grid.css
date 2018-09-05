@@ -26,4 +26,38 @@
 }
 
 
+/* Responsive */
 
+@media only screen and (max-width: 600px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'moto'
+      'logo'
+      'work'
+      'footer';
+    padding: 0px;
+    background-color: #fff;
+    margin: 0 auto; 
+    padding-top: 20px;
+    grid-auto-columns: 1fr;
+    width: 100%;
+  }
+
+  .grid-container-work {
+    grid-area: work;
+    display: grid;
+    grid-template-areas:
+      'one' 
+      'two' 
+      'three'
+      'four' 
+      'five'
+      'six';
+    background-color: #fff;
+    grid-gap: 10px;
+    grid-auto-columns: 1fr;
+    margin-top: 60px;
+  }
+}

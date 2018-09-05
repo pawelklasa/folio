@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -78,26 +82,32 @@ h1 {
 }
 
 .one {
+  text-align: center;
   grid-area: one;
 }
 
 .two {
+  text-align: center;
   grid-area: two;
 }
 
 .three {
+  text-align: center;
   grid-area: three;
 }
 
 .four {
+  text-align: center;
   grid-area: four;
 }
 
 .five {
+  text-align: center;
   grid-area: five;
 }
 
 .six {
+  text-align: center;
   grid-area: six;
 }
 
@@ -121,4 +131,17 @@ h1 {
   grid-area: footer;
   margin: 0 auto;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .moto {
+    text-align: center;
+  }
+  .logo-text {
+    text-align: center;
+  }
+  .senior {
+    text-align: center;
+  }
 }
