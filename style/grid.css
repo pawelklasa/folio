@@ -2,7 +2,8 @@
   display: grid;
   grid-template-areas:
     'logo moto'
-    'work work';
+    'work work'
+    'footer footer';
   grid-gap: 10px;
   background-color: #fff;
   padding: 10px;
