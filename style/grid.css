@@ -1,34 +1,9 @@
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'logo moto'
-    'work work'
-    'footer footer';
-  grid-gap: 10px;
-  background-color: #fff;
-  padding: 10px;
-  margin: 0 auto; 
-  grid-auto-columns: 1fr;
-  width: 75%;
-  margin-top: 60px;
-}
 
-.grid-container-work {
-  grid-area: work;
-  display: grid;
-  grid-template-areas:
-    'one two three'
-    'four five six';
-  grid-gap: 50px;
-  background-color: #fff;
-  grid-auto-columns: 1fr;
-  margin-top: 60px;
-}
 
 
 /* Responsive */
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 699px) and (min-width: 320px)  {
 
   .grid-container {
     display: grid;
@@ -56,8 +31,69 @@
       'five'
       'six';
     background-color: #fff;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-columns: 1fr;
     margin-top: 60px;
   }
 }
+
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'moto moto'
+      'logo logo'
+      'work work'
+      'footer footer';
+    padding: 0px;
+    background-color: #fff;
+    margin: 0 auto; 
+    padding-top: 20px;
+    grid-auto-columns: 1fr;
+    width: 100%;
+  }
+
+  .grid-container-work {
+    grid-area: work;
+    display: grid;
+    grid-template-areas:
+      'one two' 
+      'three four'
+      'five six';
+    background-color: #fff;
+    grid-gap: 10px;
+    grid-auto-columns: 1fr;
+    margin-top: 60px;
+  }
+} 
+
+@media screen and (min-width: 1001px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'logo moto'
+      'work work'
+      'footer footer';
+    grid-gap: 10px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 auto; 
+    grid-auto-columns: 1fr;
+    width: 75%;
+    margin-top: 60px;
+  }
+  
+  .grid-container-work {
+    grid-area: work;
+    display: grid;
+    grid-template-areas:
+      'one two three'
+      'four five six';
+    grid-gap: 50px;
+    background-color: #fff;
+    grid-auto-columns: 1fr;
+    margin-top: 60px;
+  }
+} */
