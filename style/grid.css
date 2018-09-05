@@ -31,7 +31,6 @@
       'five'
       'six';
     background-color: #fff;
-    grid-gap: 20px;
     grid-auto-columns: 1fr;
     margin-top: 60px;
   }
@@ -77,7 +76,6 @@
       'footer footer';
     grid-gap: 10px;
     background-color: #fff;
-    padding: 10px;
     margin: 0 auto; 
     grid-auto-columns: 1fr;
     width: 75%;
@@ -90,7 +88,7 @@
     grid-template-areas:
       'one two three'
       'four five six';
-    grid-gap: 50px;
+    grid-gap: 0px;
     background-color: #fff;
     grid-auto-columns: 1fr;
     margin-top: 60px;
