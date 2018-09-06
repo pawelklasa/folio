@@ -24,12 +24,7 @@
     grid-area: work;
     display: grid;
     grid-template-areas:
-      'one' 
-      'two' 
-      'three'
-      'four' 
-      'five'
-      'six';
+      'work-holder';
     background-color: #fff;
     grid-auto-columns: 1fr;
     margin-top: 60px;
@@ -56,9 +51,7 @@
     grid-area: work;
     display: grid;
     grid-template-areas:
-      'one two' 
-      'three four'
-      'five six';
+      'work-holder';
     background-color: #fff;
     grid-gap: 0px;
     grid-auto-columns: 1fr;
@@ -86,8 +79,7 @@
     grid-area: work;
     display: grid;
     grid-template-areas:
-      'one two three'
-      'four five six';
+      'work-holder work-holder';
     grid-gap: 0px;
     background-color: #fff;
     grid-auto-columns: 1fr;
