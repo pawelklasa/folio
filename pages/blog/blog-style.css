@@ -89,6 +89,7 @@ h1 {
 
 .work-text {
   font-size: 22px;
+  color: #CD0000;
 }
 
 .date {
@@ -98,6 +99,7 @@ h1 {
 
 .image-holder {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .image {
