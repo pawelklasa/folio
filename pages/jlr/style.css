@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #CD0000;
+}
+
+/* visited link */
+a:visited {
+  color: #CD0000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffb7b7;
+}
+
+/* selected link */
+a:active {
+  color: #CD0000;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #484e50;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+.dot {
+  font-family: 'Quicksand', sans-serif;
+  color: #CD0000;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-family: 'Magra', sans-serif;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+img {
+  vertical-align: middle;
+}
+
+.arrow {
+  margin-left: -10px;
+  margin-top: 10px;
+  animation-delay: 1s;
+  animation-duration: 3s;
+}
+
+.moto {
+  margin-top: 4px;
+  text-align: right;
+  grid-area: moto;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.logo-text {
+  font-size: 34px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.senior {
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  color: grey;
+}
+
+.one {
+  position: relative;
+  text-align: center;
+  grid-area: one;
+}
+
+.two {
+  position: relative;
+  text-align: center;
+  grid-area: two;
+}
+
+.three {
+  position: relative;
+  text-align: center;
+  grid-area: three;
+}
+
+.four {
+  position: relative;
+  text-align: center;
+  grid-area: four;
+}
+
+.five {
+  position: relative;
+  text-align: center;
+  grid-area: five;
+}
+
+.six {
+  position: relative;
+  text-align: center;
+  grid-area: six;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-area: footer;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 320px) {
+
+  .moto {
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .logo-text {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .senior {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .title {
+    bottom: 8px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    text-align: center;
+    z-index: 3;
+    color: #fff;
+    margin: 0 auto;
+  }
+
+  .hover-panel {
+    position: absolute;
+    bottom: 0px;
+    background-color: #000;
+    width: 100%;
+    height: 40px;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+
+  .moto {
+    margin-right: 20px;
+  }
+
+  .logo-text {
+    margin-left: 20px;
+  }
+
+  .senior {
+    margin-left: 20px;
+  }
+
+  .title {
+    bottom: 8px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    text-align: center;
+    z-index: 3;
+    color: #fff;
+    margin: 0 auto;
+  }
+
+  .hover-panel {
+    position: absolute;
+    bottom: 0px;
+    background-color: #000;
+    width: 100%;
+    height: 40px;
+    opacity: 0.5;
+  }
+} 
+
+@media screen and (min-width: 1001px) {
+
+  .title {
+    top: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    text-align: center;
+    z-index: 3;
+    visibility: hidden;
+    color: #fff;
+    opacity: 0;
+    margin: 0 auto;
+  }
+  
+  .one:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .two:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .three:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .four:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .five:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .six:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .hover-panel {
+    position: absolute;
+    bottom: 0px;
+    background-color: #000;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  
+  .one:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+  
+  .two:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+  
+  .three:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+  
+  .four:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+  
+  .five:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+  
+  .six:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+}
