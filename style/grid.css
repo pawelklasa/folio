@@ -74,7 +74,6 @@
       'logo moto'
       'work work'
       'footer footer';
-    grid-gap: 10px;
     background-color: #fff;
     margin: 0 auto; 
     grid-auto-columns: 1fr;
@@ -85,10 +84,10 @@
   .grid-container-work {
     grid-area: work;
     display: grid;
+    grid-gap: 0px;
     grid-template-areas:
       'one two three'
       'four five six';
-    grid-gap: 0px;
     background-color: #fff;
     grid-auto-columns: 1fr;
     margin-top: 60px;
