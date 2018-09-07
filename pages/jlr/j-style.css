@@ -68,6 +68,13 @@ h1 {
   font-family: 'Quicksand', sans-serif;
 }
 
+.close-button {
+  position: absolute;
+  width: 20px;
+  top: 20px;
+  left: 20px;
+}
+
 .senior {
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
