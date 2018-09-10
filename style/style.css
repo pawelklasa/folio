@@ -179,7 +179,7 @@ img {
     margin-top: 20px;
     width: 280px;
   }
-  
+
   .image-holder {
     text-align: center;
   }
@@ -225,6 +225,10 @@ img {
   .brand {
     width: 280px;
     margin-left: 20px;
+  }
+
+  .senior {
+    margin-left: 46px;
   }
 } 
 
@@ -342,5 +346,7 @@ img {
 
   .brand {
     width: 280px;
+    margin-left: -26px;
   }
+
 }
