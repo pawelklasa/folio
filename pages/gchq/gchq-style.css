@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #fff;
 }
 
 a {
@@ -95,16 +96,29 @@ h1 {
 }
 
 .work-text {
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.work-title {
+  font-family: 'Quicksand', sans-serif;
+  color: #CD0000;
+  font-size: 22px;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 20px;
 }
 
 .image-holder {
+  margin-top: 40px;
   text-align: center;
 }
 
 .image {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 @media screen and (max-width: 699px) and (min-width: 320px) {
@@ -123,6 +137,21 @@ h1 {
     text-align: center;
     margin-left: 0px;
   }
+
+  .work-text {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .work-title {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 601px) {
@@ -137,5 +166,20 @@ h1 {
 
   .senior {
     margin-left: 20px;
+  }
+
+  .work-text {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .work-title {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
