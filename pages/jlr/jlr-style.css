@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #0a0b0b;
 }
 
 a {
@@ -9,12 +9,12 @@ a {
 
 /* unvisited link */
 a:link {
-  color: #CD0000;
+  color: #fff;
 }
 
 /* visited link */
 a:visited {
-  color: #CD0000;
+  color: #fff;
 }
 
 /* mouse over link */
@@ -24,12 +24,12 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #CD0000;
+  color: #fff;
 }
 
 p {
   font-family: 'Quicksand', sans-serif;
-  color: #484e50;
+  color: #fff;
   font-size: 12px;
   letter-spacing: 1px;
   margin: 0px;
@@ -37,7 +37,7 @@ p {
 
 .dot {
   font-family: 'Quicksand', sans-serif;
-  color: #CD0000;
+  color: #fff;
   font-size: 30px;
   letter-spacing: 1px;
 }
@@ -57,6 +57,7 @@ h1 {
 .moto {
   margin-top: 14px;
   text-align: right;
+  color: #fff;
   grid-area: moto;
 }
 
@@ -66,6 +67,7 @@ h1 {
 
 .logo-text {
   font-size: 34px;
+  color: #fff;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -79,7 +81,7 @@ h1 {
 .senior {
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
-  color: grey;
+  color: #fff;
 }
 
 .footer {
@@ -104,7 +106,7 @@ h1 {
 
 .work-title {
   font-family: 'Quicksand', sans-serif;
-  color: #CD0000;
+  color: #fff;
   font-size: 22px;
   margin-left: 12%;
   margin-right: 12%;
