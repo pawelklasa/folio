@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 a {
@@ -99,7 +99,8 @@ h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   margin-left: 12%;
-  margin-right: 12%;
+  margin-right:35%;
+  line-height: 1.6;
 }
 
 .work-title {
@@ -111,14 +112,45 @@ h1 {
   margin-bottom: 20px;
 }
 
+.work-text-right {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin-left: 35%;
+  margin-right: 12%;
+  line-height: 1.6;
+}
+
+.work-title-right {
+  font-family: 'Quicksand', sans-serif;
+  color: #CD0000;
+  font-size: 22px;
+  margin-left: 35%;
+  margin-right: 12%;
+  margin-bottom: 20px;
+}
+
 .image-holder {
-  margin-top: 40px;
   text-align: center;
+  height: 100%;
+}
+
+.image-holder-small {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .image {
-  max-width: 80%;
-  max-height: 80%;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.grey-background {
+  background-color: #f2f5f4;
+}
+
+.white-background {
+  background-color: #fff;
 }
 
 
