@@ -134,6 +134,11 @@ h1 {
   height: 100%;
 }
 
+.image-holder-small {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .image {
   vertical-align: middle;
   max-width: 100%;
@@ -142,6 +147,10 @@ h1 {
 
 .grey-background {
   background-color: #f2f5f4;
+}
+
+.white-background {
+  background-color: #fff;
 }
 
 
