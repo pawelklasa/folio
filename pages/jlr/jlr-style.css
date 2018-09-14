@@ -57,6 +57,7 @@ h1 {
 .moto {
   margin-top: 14px;
   text-align: right;
+  color: #fff;
   grid-area: moto;
 }
 
@@ -66,6 +67,7 @@ h1 {
 
 .logo-text {
   font-size: 34px;
+  color: #fff;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
 }
