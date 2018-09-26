@@ -26,7 +26,10 @@
       'three'
       'four' 
       'five'
-      'six';
+      'six'
+      'seven'
+      'eight'
+      'nine';
     background-color: #fff;
     grid-auto-columns: 1fr;
     margin-top: 60px;
@@ -55,7 +58,9 @@
     grid-template-areas:
       'one two' 
       'three four'
-      'five six';
+      'five six'
+      'seven eight'
+      'nine nine';
     background-color: #fff;
     grid-gap: 0px;
     grid-auto-columns: 1fr;
@@ -84,7 +89,8 @@
     grid-gap: 0px;
     grid-template-areas:
       'one two three'
-      'four five six';
+      'four five six'
+      'seven eight nine';
     background-color: #fff;
     grid-auto-columns: 1fr;
     margin-top: 60px;

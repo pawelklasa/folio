@@ -42,7 +42,10 @@ p {
 }
 
 h1 {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #CD0000;
 }
 
 ::selection {
@@ -119,6 +122,24 @@ img {
   position: relative;
   text-align: center;
   grid-area: six;
+}
+
+.seven {
+  position: relative;
+  text-align: center;
+  grid-area: seven;
+}
+
+.eight {
+  position: relative;
+  text-align: center;
+  grid-area: eight;
+}
+
+.nine {
+  position: relative;
+  text-align: center;
+  grid-area: nine;
 }
 
 .responsive {
@@ -286,6 +307,24 @@ img {
     opacity: 1;
   }
 
+  .seven:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .eight:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nine:hover .title {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+
   .hover-panel {
     position: absolute;
     bottom: 0px;
@@ -337,6 +376,30 @@ img {
   }
   
   .six:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+
+  .seven:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+
+  .eight:hover .hover-panel {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+  }
+
+  .nine:hover .hover-panel {
     position: absolute;
     background-color: #000;
     width: 100%;
